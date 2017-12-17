@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">  
+    <title>Aaron Tuck's Portfolio</title>
+</head>
+
+<body>
+    <style>
+    body {
+        background-image: url(assets/images/circles-dark.png)
+    }    
+    </style>
+
+    <!-- navbar is supposed to be right aligned but isnt -->
+    <nav class="navbar navbar-expand navbar-light bg-light" style="background-color: rgb(255, 255, 255);">
+        <div class="nav navbar-nav">
+            <ul class="navbar-nav mr-auto">
+                <ls>
+                    <a class="nav-item nav-link" href="index.html">Home</a>
+                </ls>
+                <ls>    
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                </ls>
+                <ls>
+                    <a class="nav-item nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                </ls>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- there needs to be space between the head and the boxes but idk how -->
+    
+    <div class="container">
+        <div class="row">
+            <div class=col-md-7>
+                <style>
+                    .col-md-7 {
+                        background-color: white
+                    }    
+                </style>
+            </div>
+            <div class=col-md-1>
+            </div>
+            <div class=col-md-4>
+                <style>
+                    .col-md-4 {
+                        background-color: white
+                    }    
+                </style>
+                <h2>
+                    Connect With Me
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class=col-md-7>
+                <style>
+                    .col-md-7 {
+                        background-color: white
+                    }
+                </style>
+                <form>
+                    <fieldset>
+                        <legend><h2>Contact me</h2></legend>
+                        <p>
+                        <label>Your Name</label>
+                        <input type = "text"
+                                id = "myText"
+                                value = "" />
+                        </p>
+                        <p>
+                        <label>Subject</label>
+                        <input type = "text"
+                                id = "myText"
+                                value = "" />
+                        </p>
+                        <p>
+                        <label>Body</label>
+                        <textarea> 
+                                </textarea>
+                        </p>
+                        <button type="button">Send</button>
+                    </fieldset>
+                </form>
+            </div>
+            <div class=col-md-1>
+            </div>
+            <div class=col-md-4>
+                <a href="https://github.com/atuck217"><img src="assets/images/github.png" alt=github></a>
+                <a href="https://www.linkedin.com/in/aaron-tuck-82772a126/"><img src="assets/images/linkedin.png" alt=github></a>
+                <a href="https://stackoverflow.com/users/9011792/atuck217"><img src="assets/images/stackoverflow.jpg" alt=github></a>
+
+                <!-- This is longer than intended and im not sure how to fix -->
+        </div>
+    </div>
+    <footer>
+        <style>
+            footer {
+                background-color: #666666;
+                color: white;
+                bottom: 0px;
+                padding: 150px, 0px;
+                position: fixed;
+                width: 100%;
+                text-align: center;
+                left: 0px;
+                height: 100px;
+
+            }    
+        </style>
+        <strong>Copywrite Aaron Tuck 2017</strong>
+        <!-- not sure why the padding isnt working properly so text is floating higher than intended -->
+    </footer>
+    <style>
+        @media screen and (max-width: 640px) {
+    footer {
+        background-color: red;
+    }
+}
+        @media screen and (min-width: 768px) {
+    footer {
+        background-color: rgb(76, 0, 255);
+    }
+}
+        @media screen and (min-width: 980px) {
+    footer {
+        background-color: rgba(177, 177, 177, 0.603);
+    }
+}
+/* this kinda works but not exactly how i want it too */
+    </style> 
+</body>
+
+
+</html>
